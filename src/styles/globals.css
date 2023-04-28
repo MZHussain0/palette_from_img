@@ -59,3 +59,32 @@ header .input {
   justify-content: center;
   gap: 1rem;
 }
+
+.input label i {
+  font-size: 1.5rem;
+}
+
+.image {
+  width: 48rem;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--border);
+  border-radius: 0.5rem;
+  object-fit: cover;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.image:hover {
+  box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.13);
+}
+
+.image img {
+  width: calc(100% + 1rem);
+  height: calc(100% + 0.5rem);
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0.5rem;
+}
